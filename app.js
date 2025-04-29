@@ -16,3 +16,6 @@ app.listen(PORT, () => {
 
 const bebidaRoutes = require('./routes/bebidaRoutes');
 app.use('/bebidas', bebidaRoutes);
+
+const fornecedorRoutes = require('./routes/fornecedorRoutes');
+app.use(fornecedorRoutes);
